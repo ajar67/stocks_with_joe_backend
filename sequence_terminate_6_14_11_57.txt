@@ -1,0 +1,23 @@
+Open Positions before closing:
+[Position({   'asset_class': 'us_equity',
+    'asset_id': 'b7391cd3-db10-4de6-9a7e-7471143173f0',
+    'asset_marginable': False,
+    'avg_entry_price': '0.215',
+    'change_today': '0.4080996884735202',
+    'cost_basis': '0.215',
+    'current_price': '0.226',
+    'exchange': 'NASDAQ',
+    'lastday_price': '0.1605',
+    'market_value': '0.226',
+    'qty': '1',
+    'qty_available': '1',
+    'side': 'long',
+    'symbol': 'KITT',
+    'unrealized_intraday_pl': '0.011',
+    'unrealized_intraday_plpc': '0.0511627906976744',
+    'unrealized_pl': '0.011',
+    'unrealized_plpc': '0.0511627906976744'})]
+
+Open Positions after closing:
+[]
+
