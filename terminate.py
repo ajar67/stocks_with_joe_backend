@@ -20,7 +20,7 @@ import requests
 
 
 
-print("you're DEAD")
+
 
 
 ######################################################################################################################################################################################################################################Change back
@@ -37,12 +37,12 @@ def move_files_except(filename):
   for file in files:
       if file != filename and os.path.isfile(file):
           shutil.move(file, os.path.join('old_records', file))
-#move_files_except('dwight_v1_dev.py')
+move_files_except('dwight_v1_dev.py')
 sequence_file = "sequence_terminate_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 api_file = "api_terminate_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 trading_client = tradeapi.REST(API_KEY, API_SECRET)
 def append_to_sequence_file(filename, content):
-  print('appending')
+  print('not applicable')
   # try:
   #     with open(filename, 'a') as file:
   #         file.write(content + '\n')  # Append the content to the file
@@ -54,7 +54,7 @@ def append_to_sequence_file(filename, content):
 
 
 def append_to_api_file(filename, content):
-  print('appending')
+  print('not applicable')
   # try:
   #     with open(filename, 'a') as file:  # Open the file in append mode
   #         file.write(content + '\n')  # Append the content to the file
@@ -85,7 +85,7 @@ open_positions = trading_client.list_positions()
 append_to_sequence_file(sequence_file, "Open Positions before closing:\n" + str(open_positions) + "\n")
 print("Open Positions before closing:\n" + str(open_positions) + "\n")
 print("Closing all positions")
-#######################################################################cancel_all_positions(trading_client)
+##########################################################cancel_all_positions(trading_client)
 time.sleep(3)
 open_positions = trading_client.list_positions()
 append_to_sequence_file(sequence_file, "Open Positions after closing:\n" + str(open_positions) + "\n")

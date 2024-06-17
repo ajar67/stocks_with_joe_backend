@@ -1,0 +1,625 @@
+
+
+
+
+
+
+
+Api Ping at 6_17_9_28_54
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+LRHC: $1.170 Change Amount: 0.505 Change Percentage: 75.9398% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+BRFH: $3.030 Change Amount: 0.84 Change Percentage: 38.3562% Volume: 0
+NNE: $9.370 Change Amount: 2.3 Change Percentage: 32.5318% Volume: 0
+CYCN: $2.716 Change Amount: 0.6656 Change Percentage: 32.4683% Volume: 0
+MWG: $0.425 Change Amount: 0.103 Change Percentage: 31.9975% Volume: 0
+TCON: $1.260 Change Amount: 0.29 Change Percentage: 29.8969% Volume: 0
+CJET: $0.370 Change Amount: 0.08 Change Percentage: 27.5862% Volume: 0
+SIFYR: $0.235 Change Amount: 0.0495 Change Percentage: 26.6846% Volume: 0
+MOGU: $3.050 Change Amount: 0.6 Change Percentage: 24.4898% Volume: 0
+SCNI: $3.490 Change Amount: 0.67 Change Percentage: 23.7589% Volume: 0
+BIMI: $2.105 Change Amount: 0.395 Change Percentage: 23.0994% Volume: 0
+ISPC: $0.500 Change Amount: 0.092 Change Percentage: 22.5490% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+AREC: $0.891 Change Amount: 0.1506 Change Percentage: 20.3514% Volume: 0
+ONFO: $1.520 Change Amount: 0.25 Change Percentage: 19.6850% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+MDIA: $2.790 Change Amount: 0.44 Change Percentage: 18.7234% Volume: 0
+LRE: $6.180 Change Amount: 0.97 Change Percentage: 18.6180% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+Cross Referenced between Top Gainers and Active Trading at 6_17_9_28_54:
+
+
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+
+
+
+
+
+
+
+Api Ping at 6_17_9_28_55
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+LRHC: $1.170 Change Amount: 0.505 Change Percentage: 75.9398% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+BRFH: $3.030 Change Amount: 0.84 Change Percentage: 38.3562% Volume: 0
+NNE: $9.370 Change Amount: 2.3 Change Percentage: 32.5318% Volume: 0
+CYCN: $2.716 Change Amount: 0.6656 Change Percentage: 32.4683% Volume: 0
+MWG: $0.425 Change Amount: 0.103 Change Percentage: 31.9975% Volume: 0
+TCON: $1.260 Change Amount: 0.29 Change Percentage: 29.8969% Volume: 0
+CJET: $0.370 Change Amount: 0.08 Change Percentage: 27.5862% Volume: 0
+SIFYR: $0.235 Change Amount: 0.0495 Change Percentage: 26.6846% Volume: 0
+MOGU: $3.050 Change Amount: 0.6 Change Percentage: 24.4898% Volume: 0
+SCNI: $3.490 Change Amount: 0.67 Change Percentage: 23.7589% Volume: 0
+BIMI: $2.105 Change Amount: 0.395 Change Percentage: 23.0994% Volume: 0
+ISPC: $0.500 Change Amount: 0.092 Change Percentage: 22.5490% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+AREC: $0.891 Change Amount: 0.1506 Change Percentage: 20.3514% Volume: 0
+ONFO: $1.520 Change Amount: 0.25 Change Percentage: 19.6850% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+MDIA: $2.790 Change Amount: 0.44 Change Percentage: 18.7234% Volume: 0
+LRE: $6.180 Change Amount: 0.97 Change Percentage: 18.6180% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+Cross Referenced between Top Gainers and Active Trading at 6_17_9_28_55:
+
+
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+
+
+
+
+
+
+
+Api Ping at 6_17_9_28_56
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+LRHC: $1.170 Change Amount: 0.505 Change Percentage: 75.9398% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+BRFH: $3.030 Change Amount: 0.84 Change Percentage: 38.3562% Volume: 0
+NNE: $9.370 Change Amount: 2.3 Change Percentage: 32.5318% Volume: 0
+CYCN: $2.716 Change Amount: 0.6656 Change Percentage: 32.4683% Volume: 0
+MWG: $0.425 Change Amount: 0.103 Change Percentage: 31.9975% Volume: 0
+TCON: $1.260 Change Amount: 0.29 Change Percentage: 29.8969% Volume: 0
+CJET: $0.370 Change Amount: 0.08 Change Percentage: 27.5862% Volume: 0
+SIFYR: $0.235 Change Amount: 0.0495 Change Percentage: 26.6846% Volume: 0
+MOGU: $3.050 Change Amount: 0.6 Change Percentage: 24.4898% Volume: 0
+SCNI: $3.490 Change Amount: 0.67 Change Percentage: 23.7589% Volume: 0
+BIMI: $2.105 Change Amount: 0.395 Change Percentage: 23.0994% Volume: 0
+ISPC: $0.500 Change Amount: 0.092 Change Percentage: 22.5490% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+AREC: $0.891 Change Amount: 0.1506 Change Percentage: 20.3514% Volume: 0
+ONFO: $1.520 Change Amount: 0.25 Change Percentage: 19.6850% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+MDIA: $2.790 Change Amount: 0.44 Change Percentage: 18.7234% Volume: 0
+LRE: $6.180 Change Amount: 0.97 Change Percentage: 18.6180% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+Cross Referenced between Top Gainers and Active Trading at 6_17_9_28_56:
+
+
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+
+
+
+
+
+
+
+Api Ping at 6_17_9_28_58
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+LRHC: $1.170 Change Amount: 0.505 Change Percentage: 75.9398% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+BRFH: $3.030 Change Amount: 0.84 Change Percentage: 38.3562% Volume: 0
+NNE: $9.370 Change Amount: 2.3 Change Percentage: 32.5318% Volume: 0
+CYCN: $2.716 Change Amount: 0.6656 Change Percentage: 32.4683% Volume: 0
+MWG: $0.425 Change Amount: 0.103 Change Percentage: 31.9975% Volume: 0
+TCON: $1.260 Change Amount: 0.29 Change Percentage: 29.8969% Volume: 0
+CJET: $0.370 Change Amount: 0.08 Change Percentage: 27.5862% Volume: 0
+SIFYR: $0.235 Change Amount: 0.0495 Change Percentage: 26.6846% Volume: 0
+MOGU: $3.050 Change Amount: 0.6 Change Percentage: 24.4898% Volume: 0
+SCNI: $3.490 Change Amount: 0.67 Change Percentage: 23.7589% Volume: 0
+BIMI: $2.105 Change Amount: 0.395 Change Percentage: 23.0994% Volume: 0
+ISPC: $0.500 Change Amount: 0.092 Change Percentage: 22.5490% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+AREC: $0.891 Change Amount: 0.1506 Change Percentage: 20.3514% Volume: 0
+ONFO: $1.520 Change Amount: 0.25 Change Percentage: 19.6850% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+MDIA: $2.790 Change Amount: 0.44 Change Percentage: 18.7234% Volume: 0
+LRE: $6.180 Change Amount: 0.97 Change Percentage: 18.6180% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+Cross Referenced between Top Gainers and Active Trading at 6_17_9_28_58:
+
+
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+
+
+
+
+
+
+
+Api Ping at 6_17_9_28_59
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+LRHC: $1.170 Change Amount: 0.505 Change Percentage: 75.9398% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+BRFH: $3.030 Change Amount: 0.84 Change Percentage: 38.3562% Volume: 0
+NNE: $9.370 Change Amount: 2.3 Change Percentage: 32.5318% Volume: 0
+CYCN: $2.716 Change Amount: 0.6656 Change Percentage: 32.4683% Volume: 0
+MWG: $0.425 Change Amount: 0.103 Change Percentage: 31.9975% Volume: 0
+TCON: $1.260 Change Amount: 0.29 Change Percentage: 29.8969% Volume: 0
+CJET: $0.370 Change Amount: 0.08 Change Percentage: 27.5862% Volume: 0
+SIFYR: $0.235 Change Amount: 0.0495 Change Percentage: 26.6846% Volume: 0
+MOGU: $3.050 Change Amount: 0.6 Change Percentage: 24.4898% Volume: 0
+SCNI: $3.490 Change Amount: 0.67 Change Percentage: 23.7589% Volume: 0
+BIMI: $2.105 Change Amount: 0.395 Change Percentage: 23.0994% Volume: 0
+ISPC: $0.500 Change Amount: 0.092 Change Percentage: 22.5490% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+AREC: $0.891 Change Amount: 0.1506 Change Percentage: 20.3514% Volume: 0
+ONFO: $1.520 Change Amount: 0.25 Change Percentage: 19.6850% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+MDIA: $2.790 Change Amount: 0.44 Change Percentage: 18.7234% Volume: 0
+LRE: $6.180 Change Amount: 0.97 Change Percentage: 18.6180% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
+Cross Referenced between Top Gainers and Active Trading at 6_17_9_28_59:
+
+
+Top Gainers:
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+SVMH: $0.228 Change Amount: 0.075 Change Percentage: 49.1803% Volume: 0
+KITT: $0.192 Change Amount: 0.0315 Change Percentage: 19.6262% Volume: 0
+KAVL: $5.960 Change Amount: 4.6 Change Percentage: 338.2353% Volume: 0
+FOXO: $0.289 Change Amount: 0.0501 Change Percentage: 20.9711% Volume: 0
+
+Top Losers:
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+NVDA: $131.880 Change Amount: 2.27 Change Percentage: 1.7514% Volume: 0
+CRKN: $0.058 Change Amount: -0.0156 Change Percentage: -21.0811% Volume: 0
+SQQQ: $8.430 Change Amount: -0.11 Change Percentage: -1.2881% Volume: 0
+LGVN: $3.190 Change Amount: 0.5 Change Percentage: 18.5874% Volume: 0
+GME: $28.700 Change Amount: -0.42 Change Percentage: -1.4423% Volume: 0
+TSLA: $178.010 Change Amount: -4.46 Change Percentage: -2.4442% Volume: 0
+SIRI: $2.610 Change Amount: 0.07 Change Percentage: 2.7559% Volume: 0
+SOFI: $6.460 Change Amount: -0.34 Change Percentage: -5.0000% Volume: 0
+AAPL: $212.490 Change Amount: -1.75 Change Percentage: -0.8168% Volume: 0
+VXRT: $0.572 Change Amount: -0.1775 Change Percentage: -23.6698% Volume: 0
+FFIE: $0.515 Change Amount: 0.0063 Change Percentage: 1.2384% Volume: 0
+SPCE: $0.685 Change Amount: -0.0455 Change Percentage: -6.2295% Volume: 0
+CCL: $15.340 Change Amount: -1.17 Change Percentage: -7.0866% Volume: 0
+TSLL: $7.570 Change Amount: -0.42 Change Percentage: -5.2566% Volume: 0
+HYG: $77.060 Change Amount: -0.3 Change Percentage: -0.3878% Volume: 0
+F: $11.710 Change Amount: -0.23 Change Percentage: -1.9263% Volume: 0
+
+
