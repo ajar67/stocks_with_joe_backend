@@ -18,18 +18,18 @@ import alpaca_trade_api as tradeapi
 import requests
 
 
-print("Wazzuuuuppp")
 
 
 
 
 
-API_KEY = 'AKWQSXPBDHSSZBQH60WA'
-API_SECRET = "zKI0mEDbOilpekjPsZ7rOyjSMcT6HpjcRjD0VJh3"
-#API_KEY = 'PKOHFJJ9MRD1MEV1GETG'
-#API_SECRET = "aYHkc8x4p0BxMdWJd6hsxmAm0eGi6pgIHCiuvTB3"
-#APCA_API_BASE_URL = 'https://api.alpaca.markets'
-APCA_API_BASE_URL = 'https://paper-api.alpaca.markets/v2'  # Paper trading endpoint
+
+API_KEY = 'AKWQSXPBDHSSZBQH60WA' # THIS IS THE REAL
+API_SECRET = "zKI0mEDbOilpekjPsZ7rOyjSMcT6HpjcRjD0VJh3" # THIS IS THE REAL
+APCA_API_BASE_URL = 'https://paper-api.alpaca.markets/v2'  # Paper trading endpoint # THIS IS THE REAL
+#API_KEY = 'PKZDTXRWA06FGKUIBSBC' # THIS IS THE FAKE
+#API_SECRET = "jBCGORRU2rHAghgVmcbzDfOYP7m670SClAUGeNsf" # THIS IS THE FAKE
+#APCA_API_BASE_URL = 'https://paper-api.alpaca.markets/v2' # THIS IS THE FAKE
 
 def move_files_except(filename):
   if not os.path.exists('old_records'):
@@ -43,40 +43,43 @@ def move_files_except(filename):
 sequence_file = "sequence_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 api_file = "api_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 
-trading_client = tradeapi.REST(API_KEY, API_SECRET)
+
 ######################################################################################################################################################################################################################################Change back
 
 # API_KEY = 'PK28FQ7082D0XUIBUUUE'
 # API_SECRET = "X5N9YiYss1tmbHzgWMx37RbwI3D2rM0mdN3Jvts6"
 # APCA_API_BASE_URL = 'https://paper-api.alpaca.markets/v2'  # Paper trading endpoint
 
-# trading_client = TradingClient(API_KEY, API_SECRET, paper=True)
+
+trading_client = tradeapi.REST(API_KEY, API_SECRET) # THIS IS THE REAL
+#trading_client = TradingClient(API_KEY, API_SECRET, paper=True)  # THIS IS THE FAKE
 account = trading_client.get_account()
 buying_power = float(account.cash)
-amount = buying_power * .2
-print("Buying Power (20%): ", amount)
+amount = buying_power * .01
+print("Buying Power (1%): ", amount)
 
 def append_to_sequence_file(filename, content):
-  print("not appending")
-  # try:
-  #     with open(filename, 'a') as file:
-  #         file.write(content + '\n')  # Append the content to the file
-  #         # print("Content appended to", filename)
-  # except FileNotFoundError:
-  #     print("File not found:", filename)
-  # except Exception as e:
-  #     print("An error occurred:", e)
+    var = 1
+#   try:
+#       with open(filename, 'a') as file:
+#           file.write(content + '\n')  # Append the content to the file
+#           # print("Content appended to", filename)
+#   except FileNotFoundError:
+#       print("File not found:", filename)
+#   except Exception as e:
+#       print("An error occurred:", e)
 
 
 def append_to_api_file(filename, content):
-  try:
-      with open(filename, 'a') as file:  # Open the file in append mode
-          file.write(content + '\n')  # Append the content to the file
-          # print("Content appended to", filename)
-  except FileNotFoundError:
-      print("File not found:", filename)
-  except Exception as e:
-      print("An error occurred:", e)
+    var = 1
+#   try:
+#       with open(filename, 'a') as file:  # Open the file in append mode
+#           file.write(content + '\n')  # Append the content to the file
+#           # print("Content appended to", filename)
+#   except FileNotFoundError:
+#       print("File not found:", filename)
+#   except Exception as e:
+#       print("An error occurred:", e)
 
 
 
@@ -547,17 +550,11 @@ def buy_ioc(symbol, quantity, trading_client):
     print(f"Failed to submit market order. Error: {e}")
     return None
 
-def process_one_shares(shares_dict, decided_stocks, qty="one"):
+def print_process_one_shares(shares_dict, decided_stocks, qty="one"):
   # print("Processing shares...")
   for ticker, (share_count, total_investment) in shares_dict.items():
-    # place_order = place_bracket_order_2(str(ticker), share_count,decided_stocks)
-    # print(place_order)
-    print("Ticker = " + str(ticker) + " Share Count = " + str(share_count))
-    append_to_sequence_file(sequence_file, "Ticker = " + str(ticker) + " Share Count = " + str(share_count) + "\n")
-    place_order = buy_ioc(str(ticker), share_count, trading_client)
-    append_to_sequence_file(sequence_file, "Place Order = " + str(place_order))
-    break
-  return "Shares Processed!"
+    return "Would've bought.....Ticker = " + str(ticker) + " Share Count = " + str(share_count)
+
 
 def process_shares(shares_dict, decided_stocks, qty="one"):
   for ticker, (share_count, total_investment) in shares_dict.items():
@@ -732,11 +729,11 @@ def filter_top_gainers(json_data):
       return None
 
 
-def run_for_x_seconds_and_match_tg_and_at(hour, minute, x):
+def run_for_x_seconds_and_match_tg_and_at(hour, minute, second, x):
   original_list = str(ping_api()).replace("'", '"')  #first api call - implement here
   # Run the loop for one minute
   current_time = datetime.now(pytz.timezone('America/New_York'))
-  while int(current_time.strftime("%I")) < hour or current_time.minute < minute:
+  while int(current_time.strftime("%I")) < hour or current_time.minute < minute or (current_time.minute <= minute and current_time.second < second):
     new_list = str(ping_api()).replace("'", '"')  #update to function here
     original_list = filter_top_gainers(new_list)
     # Your code goes here
@@ -799,85 +796,252 @@ def run_until_time_and_print_info(hour, minute, x, trading_client, sequence_file
   print("Ended loop checking information")
   return
 
-#try:
-  #hour = int(input("Hour: "))
-#except Exception as e:
-  #hour = 9
+def wait_until_start(hour, minute, second):
+  current_time = datetime.now(pytz.timezone('America/New_York'))
+  while int(current_time.strftime("%I")) < hour or current_time.minute < minute or (current_time.minute <= minute and current_time.second < second):
+    time.sleep(1)  # Wait for 1 second
+    current_time = datetime.now(pytz.timezone('America/New_York'))
 
-#try:
-  #minute = int(input("Minute: "))
-#except Exception as e:
-  #minute = 30
+def get_stock_info(stock_symbol):
+    # Load the JSON data
+    stock_data = json.loads(urllib.request.urlopen("https://financialmodelingprep.com/api/v3/quote/" + stock_symbol + "?apikey=JsxNLlkcPHhOmQxXh0pus71q4peJnIN0").read())
+    # Find the stock information for the given symbol
+    for stock in stock_data:
+        if stock['symbol'] == stock_symbol:
+            price = stock.get('price', 'N/A')
+            change_percentage = stock.get('changesPercentage', 'N/A')
+            volume = stock.get('volume', 'N/A')
+            avg_volume = stock.get('avgVolume', 'N/A')
+            volume_ratio = volume / avg_volume if avg_volume != 'N/A' and avg_volume != 0 else 'N/A'
+            result = (f"Symbol: {stock_symbol}\n"
+                      f"Price: {price}\n"
+                      f"Change Percentage: {change_percentage}\n"
+                      f"Volume: {volume}\n"
+                      f"Average Volume: {avg_volume}\n"
+                      f"Volume/Average Volume: {volume_ratio}")
+            return result
 
+def filter_decided_stocks(json_data):
+  try:
+      # Parse JSON data
+      data = json.loads(json_data)
 
+      # Extract top gainers
+      top_gainers = data.get("top_gainers", [])
 
+      # Create a list of strings containing stock symbols and prices
+      stock_info_list = []
+      for stock in top_gainers:
+          symbol = stock.get("ticker", "")
+          price = stock.get("price", "")
+          stock_info = get_stock_info(str(symbol))
+          if symbol and price:
+              stock_info_list.append(stock_info + "\n")
+
+      # Return a string with each stock symbol and price on a new line
+      return '\n'.join(stock_info_list)
+  except json.JSONDecodeError as e:
+      print("Invalid JSON data:", e)
+      return "None"
+
+def process_one_shares(shares_dict, decided_stocks, qty="one"):
+  # print("Processing shares...")
+  for ticker, (share_count, total_investment) in shares_dict.items():
+    # place_order = place_bracket_order_2(str(ticker), share_count,decided_stocks)
+    # print(place_order)
+    print("Placing Order for Ticker = " + str(ticker) + " Share Count = " + str(share_count))
+    place_order = buy_ioc(str(ticker), share_count, trading_client)
+    break
+  return "Shares Processed!"
 
 
 current_time = datetime.now(pytz.timezone('America/New_York'))
 # int(current_time.strftime("%I")) >= hour AND current_time.minute >= minute
 
-hour = int(current_time.strftime("%I"))
-minute = int(current_time.minute)
-minute += 1
+hour = 9
+minute = 30
 
-append_to_sequence_file(sequence_file, "Starting Machine at " + str(time.localtime()) + "\n")
-append_to_sequence_file(sequence_file, "Deciding stocks using cross-referencing at " + str(time.localtime()) + "\n")
-append_to_sequence_file(sequence_file, "Waiting until "+ str(hour) + ":" + str(minute) +"\n")
-print("Waiting until "+ str(hour) + ":" + str(minute) +"\n")
-if (int(current_time.strftime("%I")) >= hour and current_time.minute >= minute):
-  print("Starting Machine now")
-  original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
-else:
-  original_list = run_for_x_seconds_and_match_tg_and_at(hour, minute, 1)
+print("Waiting until " + str(hour) + ":" + str(minute))
 
+
+wait_until_start(hour, minute, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
 decided_stocks = decide_stocks_tg_at(original_list)
-# print("decided stockss " + str(decided_stocks))
-
-# print("top gainers = " + str(filter_top_gainers(decided_stocks)))
-# print("decided stocks = " + str(decided_stocks))
-
 if check_top_gainers_exist(decided_stocks):
-  print("Top Gainers Exist from Cross Reference")
-  append_to_sequence_file(sequence_file, "Top Gainers Exist from Cross Reference" + "\n")
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
 else:
-  print("Top Gainers do not exist from Cross Reference")
-  append_to_sequence_file(sequence_file, "Top Gainers DONT Exist from Cross Reference" + "\n")
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
   decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
 
 
-append_to_sequence_file(sequence_file, "\n\nDecided Stocks:\n" + filter_decided_stocks(decided_stocks) +  "\n")
 
-# # quant_of_stocks_dict = calculate_shares_good(decided_stocks, amount)
+
+wait_until_start(hour, minute, 30)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+wait_until_start(hour, minute + 1, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+
+
+# ###########################################################################################################################
 quant_of_stocks_dict = calculate_shares_good_for_one(decided_stocks, amount)
-
-############################################################processed_shares = process_one_shares(quant_of_stocks_dict, decided_stocks)
-
+# processed_shares = process_one_shares(quant_of_stocks_dict, decided_stocks)
 portfolio = get_accepted_orders(trading_client)
 output = summarize_accepted_orders(portfolio)
-# print()
 print(output)
-# str(time.strftime("%Y-%m-%d %H:%M:%S\n\n", time.localtime()))
-###############################################################close_positions_with_limit_order(trading_client)
-# x = 175
-# print("Waiting for " + str(x) + " seconds before closing all positions...")
-# time.sleep(x)
+time.sleep(5)
+# close_positions_with_limit_order(trading_client)
 
-hour_a = int(current_time.strftime("%I"))
-minute_a = int(current_time.minute)
-minute_a += 1
+###########################################################################################################################
 
-print("Waiting until " + str(hour_a) + ":" + str(minute_a))
-try:
-    run_until_time_and_print_info(hour_a, minute_a, 1, trading_client, sequence_file)
-except Exception as e:
-    wait_until_start(hour_a, minute_a)
 
+
+
+
+
+
+
+wait_until_start(hour, minute + 1, 30)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+wait_until_start(hour, minute + 2, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+wait_until_start(hour, minute + 2, 30)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+wait_until_start(hour, minute + 3, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+wait_until_start(hour, minute + 3, 30)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+wait_until_start(hour, minute + 4, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+
+wait_until_start(hour, minute + 4, 30)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+
+
+
+
+wait_until_start(hour, minute + 5, 0)
+original_list = filter_top_gainers(str(ping_api()).replace("'", '"'))
+decided_stocks = decide_stocks_tg_at(original_list)
+if check_top_gainers_exist(decided_stocks):
+  print("\n\n\n################################################################\nTop Gainers Exist from Cross Reference")
+else:
+  print("\n\n\n################################################################\nTop Gainers do not exist from Cross Reference")
+  decided_stocks = decide_stocks(run_for_x_seconds_and_keep_same(5))
+order = print_process_one_shares(calculate_shares_good_for_one(decided_stocks, amount), decided_stocks)
+print("Running at "+ str(datetime.now(pytz.timezone('America/New_York'))) +"\n" + order + "\n" + filter_decided_stocks(decided_stocks))
+
+#####################################################################################################################
 open_positions = trading_client.list_positions()
-append_to_sequence_file(sequence_file, "Open Positions before closing:\n" + str(open_positions) + "\n")
 print("Closing all positions")
-##########################################################################cancel_all_positions(trading_client)
+# cancel_all_positions(trading_client)
 time.sleep(3)
 open_positions = trading_client.list_positions()
-append_to_sequence_file(sequence_file, "Open Positions after closing:\n" + str(open_positions) + "\n")
 print("Closing Machine")
 print()
+#####################################################################################################################
+
+print("\n\n\n############################################\nFinished\n###############################################\n\n\n")
