@@ -18,6 +18,10 @@ import alpaca_trade_api as tradeapi
 import requests
 
 
+# with open('api_key.txt', 'r') as file:
+#     api_key = file.read().strip()
+
+# print(api_key)
 
 
 

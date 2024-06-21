@@ -10,7 +10,6 @@ import pytz
 from datetime import datetime
 import os
 import shutil
-
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
 from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
@@ -19,6 +18,11 @@ import requests
 
 
 
+
+# with open('api_key.txt', 'r') as file:
+#     api_key = file.read().strip()
+
+# print(api_key)
 
 
 
@@ -37,7 +41,7 @@ def move_files_except(filename):
   for file in files:
       if file != filename and os.path.isfile(file):
           shutil.move(file, os.path.join('old_records', file))
-move_files_except('dwight_v1_dev.py')
+#move_files_except('dwight_v1_dev.py')
 sequence_file = "sequence_terminate_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 api_file = "api_terminate_" + str(time.localtime().tm_mon) + "_" + str(time.localtime().tm_mday) + "_" + str(time.localtime().tm_hour) + "_" + str(time.localtime().tm_min) + ".txt"
 trading_client = tradeapi.REST(API_KEY, API_SECRET)

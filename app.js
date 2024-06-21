@@ -1,37 +1,34 @@
 const express = require("express");
 const cors = require("cors");
-const { exec, spawn } = require("child_process");
+const fs = require("fs");
+const path = require("path");
+const filePath = path.join(__dirname, "api_key.txt");
+const { exec } = require("child_process"); //, spawn
 
 const { PORT = 3003 } = process.env;
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.post("/api/login", (req, res) => {
-  const apiKey = req.body.apiKey;
+app.post("/store-api-key", (req, res) => {
+  console.log(req.body);
+  const { apiKey } = req.body;
   if (!apiKey) {
-    return res.status(400).json({ error: "No API key provided" });
+    return res.status(400).json({ error: "API key is required" });
   }
+  console.log(apiKey);
+  fs.writeFileSync(filePath, apiKey, "utf8");
+  console.log("created file");
+  res.status(200).json({ message: "API key saved successfully" });
+});
 
-  const pythonProcess = spawn("python", ["testApiKey.py", apiKey]);
-
-  pythonProcess.stdout.on("data", (data) => {
-    console.log(`stdout: ${data}`);
-  });
-
-  pythonProcess.stderr.on("data", (data) => {
-    console.error(`stderr: ${data}`);
-  });
-
-  pythonProcess.on("close", (code) => {
-    console.log(`child process exited with code ${code}`);
-    if (code === 0) {
-      res.status(200).json({ message: "API key received and processed" });
-    } else {
-      res.status(500).json({ error: "Error processing API key" });
-    }
-  });
+app.post("/logout", (req, res) => {
+  const filePath = path.join(__dirname, "api_key.txt");
+  if (fs.existsSync(filePath)) {
+    fs.unlinkSync(filePath);
+    console.log("API key file deleted");
+  }
+  res.status(200).json({ message: "Logged out successfully" });
 });
 
 app.post("/run-script", (req, res) => {
