@@ -19,16 +19,14 @@ import requests
 
 
 
-# with open('api_key.txt', 'r') as file:
-#     api_key = file.read().strip()
-
-# print(api_key)
+with open('api_key.txt', 'r') as file:
+    api_key = file.read().strip()
 
 
 
 
 ######################################################################################################################################################################################################################################Change back
-API_KEY = 'AKWQSXPBDHSSZBQH60WA'
+API_KEY = api_key
 API_SECRET = "zKI0mEDbOilpekjPsZ7rOyjSMcT6HpjcRjD0VJh3"
 #API_KEY = 'PKOHFJJ9MRD1MEV1GETG'
 #API_SECRET = "aYHkc8x4p0BxMdWJd6hsxmAm0eGi6pgIHCiuvTB3"

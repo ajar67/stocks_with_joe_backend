@@ -18,17 +18,16 @@ import alpaca_trade_api as tradeapi
 import requests
 
 
-# with open('api_key.txt', 'r') as file:
-#     api_key = file.read().strip()
-
-# print(api_key)
+with open('api_key.txt', 'r') as file:
+    api_key = file.read().strip()
 
 
 
 
 
 
-API_KEY = 'AKWQSXPBDHSSZBQH60WA' # THIS IS THE REAL
+
+API_KEY = api_key # THIS IS THE REAL
 API_SECRET = "zKI0mEDbOilpekjPsZ7rOyjSMcT6HpjcRjD0VJh3" # THIS IS THE REAL
 APCA_API_BASE_URL = 'https://paper-api.alpaca.markets/v2'  # Paper trading endpoint # THIS IS THE REAL
 #API_KEY = 'PKZDTXRWA06FGKUIBSBC' # THIS IS THE FAKE
