@@ -32,39 +32,48 @@ app.post("/logout", (req, res) => {
 });
 
 app.post("/run-script", (req, res) => {
-  exec("python3 test.py", (error, stdout, stderr) => {
-    if (error) {
-      return res.status(500).json({ error: error.message });
+  exec(
+    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 test.py",
+    (error, stdout, stderr) => {
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+      if (stderr) {
+        return res.status(500).json({ error: stderr });
+      }
+      res.status(200).json({ output: stdout });
     }
-    if (stderr) {
-      return res.status(500).json({ error: stderr });
-    }
-    res.status(200).json({ output: stdout });
-  });
+  );
 });
 
 app.post("/get-info", (req, res) => {
-  exec("python3 info.py", (error, stdout, stderr) => {
-    if (error) {
-      return res.status(500).json({ error: error.message });
+  exec(
+    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 info.py",
+    (error, stdout, stderr) => {
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+      if (stderr) {
+        return res.status(500).json({ error: stderr });
+      }
+      res.status(200).json({ output: stdout });
     }
-    if (stderr) {
-      return res.status(500).json({ error: stderr });
-    }
-    res.status(200).json({ output: stdout });
-  });
+  );
 });
 
 app.post("/kill-script", (req, res) => {
-  exec("python3 terminate.py", (error, stdout, stderr) => {
-    if (error) {
-      return res.status(500).json({ error: error.message });
+  exec(
+    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 terminate.py",
+    (error, stdout, stderr) => {
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+      if (stderr) {
+        return res.status(500).json({ error: stderr });
+      }
+      res.status(200).json({ output: stdout });
     }
-    if (stderr) {
-      return res.status(500).json({ error: stderr });
-    }
-    res.status(200).json({ output: stdout });
-  });
+  );
 });
 
 app.use((req, res, next) => {
