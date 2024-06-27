@@ -33,7 +33,7 @@ app.post("/logout", (req, res) => {
 
 app.post("/run-script", (req, res) => {
   exec(
-    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 test.py",
+    ". /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 test.py",
     (error, stdout, stderr) => {
       if (error) {
         return res.status(500).json({ error: error.message });
@@ -48,7 +48,7 @@ app.post("/run-script", (req, res) => {
 
 app.post("/get-info", (req, res) => {
   exec(
-    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 info.py",
+    ". /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 info.py",
     (error, stdout, stderr) => {
       if (error) {
         return res.status(500).json({ error: error.message });
@@ -63,7 +63,7 @@ app.post("/get-info", (req, res) => {
 
 app.post("/kill-script", (req, res) => {
   exec(
-    "source /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 terminate.py",
+    ". /home/psychphransiscobounce/stocks_with_joe_backend/venv/bin/activate && python3 terminate.py",
     (error, stdout, stderr) => {
       if (error) {
         return res.status(500).json({ error: error.message });
