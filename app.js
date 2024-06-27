@@ -32,7 +32,7 @@ app.post("/logout", (req, res) => {
 });
 
 app.post("/run-script", (req, res) => {
-  exec("python test.py", (error, stdout, stderr) => {
+  exec("python3 test.py", (error, stdout, stderr) => {
     if (error) {
       return res.status(500).json({ error: error.message });
     }
@@ -44,7 +44,7 @@ app.post("/run-script", (req, res) => {
 });
 
 app.post("/get-info", (req, res) => {
-  exec("python info.py", (error, stdout, stderr) => {
+  exec("python3 info.py", (error, stdout, stderr) => {
     if (error) {
       return res.status(500).json({ error: error.message });
     }
@@ -56,7 +56,7 @@ app.post("/get-info", (req, res) => {
 });
 
 app.post("/kill-script", (req, res) => {
-  exec("python terminate.py", (error, stdout, stderr) => {
+  exec("python3 terminate.py", (error, stdout, stderr) => {
     if (error) {
       return res.status(500).json({ error: error.message });
     }
